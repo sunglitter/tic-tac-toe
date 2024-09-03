@@ -1,0 +1,23 @@
+# node_modules 폴더를 무시
+node_modules/
+
+# package-lock.json 파일을 무시
+package-lock.json
+
+# .env 파일을 무시 (환경 변수 파일)
+.env
+
+# 빌드 폴더를 무시 (예: dist, build)
+dist/
+build/
+
+# 로그 파일을 무시
+*.log
+
+# 운영 체제별 파일 무시
+.DS_Store
+Thumbs.db
+
+# IDE 설정 파일 무시 (예: VS Code)
+.vscode/
+.idea/
